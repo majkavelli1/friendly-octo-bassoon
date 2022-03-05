@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.body{
+    background-color: #ebf0f0;
+    font-family: 'Open Sans',serif;
+}
+
+.container .row{
+    background-color: white;
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+.container .row .product_image a {
+    pointer-events: stroke;
+    text-decoration: none;
+    color: black;
+}
+
+
+.container .row .product_image .css_card{
+    margin: 10px;
+    border-radius: 5px;
+    height: 370px;
+}
+
+.container .row .product_image .css_card:hover{
+   background-color: #ebf0f0;
+}
+
+
+.container .row .product_image .css_card img {
+    height: 200px;
+    width: 250px;
+    margin: 5px;
+    padding: 10px;
+    object-fit: contain;
+}

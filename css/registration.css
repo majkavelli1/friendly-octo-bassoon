@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+.body {
+    background-color: #ebf0f0;
+    font-family: 'Open Sans', serif;
+}
+
+#toggled,
+.event-buttons{
+    border: 1px solid #d1e693;
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#toggled {
+    padding: 50px;
+    display: none;
+}
+
+label,
+input,
+button {
+    border: 0;
+    margin-bottom: 3px;
+    display: block;
+    width: 100%;
+}
+
+.common_box_body {
+    padding: 15px;
+    border: 12px solid #28BAA2;
+    border-color: #28BAA2;
+    border-radius: 15px;
+    margin-top: 10px;
+    background: #d4edda;
+}
+
+#canvas-wrapper.dark-mode {
+    background: #222;
+    color: #DDD;
+}
+
